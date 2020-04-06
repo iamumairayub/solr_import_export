@@ -17,7 +17,7 @@ while 1:
 
         response = requests.post('https://www.solr.com/solr/to_solr/update?commit=true', 
                                  headers={'Content-Type':'application/json'},
-                                 auth=('userName', 'inaem3Fahghi7gepooqu'),
+                                 auth=('userName', 'Password'),
                                  data=json.dumps(test['response']['docs']))
         print(response.text)
         
